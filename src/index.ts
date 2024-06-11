@@ -14,7 +14,7 @@ const requestTime = function (
 };
 
 app.get("/api/v1/", (req, res) => {
-  res.send("노무현은 살아있다!");
+  res.send("살아있다!");
 });
 
 // oracle
